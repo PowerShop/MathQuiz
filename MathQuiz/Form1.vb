@@ -41,7 +41,6 @@
             minuend - subtrahend = difference.Value AndAlso
             multiplicand * multiplier = product.Value AndAlso
             dividend / divisor = quotient.Value Then
-
             Return True
         Else
             Return False
