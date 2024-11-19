@@ -30,12 +30,6 @@
     ' Declare the Timer object
     Private WithEvents Timer1 As New Timer With {.Interval = 1000}
 
-    ''' <summary>
-    ''' Start the quiz by filling in all of the problems
-    ''' and starting the timer.
-    ''' </summary>
-    ''' <remarks></remarks>
-    ''' 
     Public Function CheckTheAnswer() As Boolean
         If addend1 + addend2 = sum.Value AndAlso
             minuend - subtrahend = difference.Value AndAlso
