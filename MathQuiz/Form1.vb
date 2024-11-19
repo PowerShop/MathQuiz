@@ -1,4 +1,5 @@
 ﻿Public Class Form1
+
     ' Create a Random object called randomizer 
     ' to generate random numbers.
     Private randomizer As New Random
@@ -26,6 +27,9 @@
     ' This integer variable keeps track of the 
     ' remaining time.
     Private timeLeft As Integer
+
+    'Import class Add
+    Dim opt As New Operations
 
     ' Declare the Timer object
     Private WithEvents Timer1 As New Timer With {.Interval = 1000}
@@ -119,6 +123,7 @@
         timeLeft = 30
         timeLabel.Text = "30 seconds" ' ใช้ Label แสดงเวลาที่เริ่มต้น
         Timer1.Start()
+        LogToConsole("30 Seconds")
 
     End Sub
 
@@ -127,6 +132,15 @@
     Private Sub startButton_Click() Handles startButton.Click
         StartTheQuiz()
         startButton.Enabled = False
+        LogToConsole("Start The Quiz")
+
     End Sub
+
+    Public Sub LogToConsole(message As String)
+        Console.WriteLine($"{DateTime.Now:yyyy-MM-dd HH:mm:ss} - {message}")
+    End Sub
+
+
+
 
 End Class

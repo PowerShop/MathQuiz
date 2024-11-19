@@ -22,298 +22,315 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.timeLabel = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.plusLeftLabel = New System.Windows.Forms.Label()
-        Me.plusRightLabel = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.minusRightLabel = New System.Windows.Forms.Label()
-        Me.minusLeftLabel = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.timesRightLabel = New System.Windows.Forms.Label()
-        Me.timesLeftLabel = New System.Windows.Forms.Label()
-        Me.Label10 = New System.Windows.Forms.Label()
-        Me.dividedRightLabel = New System.Windows.Forms.Label()
-        Me.dividedLeftLabel = New System.Windows.Forms.Label()
-        Me.Label13 = New System.Windows.Forms.Label()
-        Me.Label14 = New System.Windows.Forms.Label()
-        Me.Label15 = New System.Windows.Forms.Label()
-        Me.Label16 = New System.Windows.Forms.Label()
-        Me.sum = New System.Windows.Forms.NumericUpDown()
-        Me.quotient = New System.Windows.Forms.NumericUpDown()
-        Me.product = New System.Windows.Forms.NumericUpDown()
-        Me.difference = New System.Windows.Forms.NumericUpDown()
-        Me.startButton = New System.Windows.Forms.Button()
-        CType(Me.sum, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.quotient, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.product, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.difference, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.SuspendLayout()
-        '
-        'timeLabel
-        '
-        Me.timeLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.timeLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
-        Me.timeLabel.Location = New System.Drawing.Point(588, 9)
-        Me.timeLabel.Name = "timeLabel"
-        Me.timeLabel.Size = New System.Drawing.Size(200, 30)
-        Me.timeLabel.TabIndex = 0
-        Me.timeLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
-        Me.Label1.Location = New System.Drawing.Point(463, 9)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(119, 29)
-        Me.Label1.TabIndex = 1
-        Me.Label1.Text = "Time Left"
-        '
-        'plusLeftLabel
-        '
-        Me.plusLeftLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
-        Me.plusLeftLabel.Location = New System.Drawing.Point(175, 59)
-        Me.plusLeftLabel.Name = "plusLeftLabel"
-        Me.plusLeftLabel.Size = New System.Drawing.Size(60, 50)
-        Me.plusLeftLabel.TabIndex = 2
-        Me.plusLeftLabel.Text = "?"
-        Me.plusLeftLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'plusRightLabel
-        '
-        Me.plusRightLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
-        Me.plusRightLabel.Location = New System.Drawing.Point(366, 59)
-        Me.plusRightLabel.Name = "plusRightLabel"
-        Me.plusRightLabel.Size = New System.Drawing.Size(60, 50)
-        Me.plusRightLabel.TabIndex = 3
-        Me.plusRightLabel.Text = "?"
-        Me.plusRightLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label3
-        '
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
-        Me.Label3.Location = New System.Drawing.Point(265, 59)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(60, 50)
-        Me.Label3.TabIndex = 4
-        Me.Label3.Text = "+"
-        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label4
-        '
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
-        Me.Label4.Location = New System.Drawing.Point(265, 144)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(60, 50)
-        Me.Label4.TabIndex = 7
-        Me.Label4.Text = "-"
-        Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'minusRightLabel
-        '
-        Me.minusRightLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
-        Me.minusRightLabel.Location = New System.Drawing.Point(366, 144)
-        Me.minusRightLabel.Name = "minusRightLabel"
-        Me.minusRightLabel.Size = New System.Drawing.Size(60, 50)
-        Me.minusRightLabel.TabIndex = 6
-        Me.minusRightLabel.Text = "?"
-        Me.minusRightLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'minusLeftLabel
-        '
-        Me.minusLeftLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
-        Me.minusLeftLabel.Location = New System.Drawing.Point(175, 144)
-        Me.minusLeftLabel.Name = "minusLeftLabel"
-        Me.minusLeftLabel.Size = New System.Drawing.Size(60, 50)
-        Me.minusLeftLabel.TabIndex = 5
-        Me.minusLeftLabel.Text = "?"
-        Me.minusLeftLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label7
-        '
-        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
-        Me.Label7.Location = New System.Drawing.Point(265, 226)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(60, 50)
-        Me.Label7.TabIndex = 10
-        Me.Label7.Text = "x"
-        Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'timesRightLabel
-        '
-        Me.timesRightLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
-        Me.timesRightLabel.Location = New System.Drawing.Point(366, 226)
-        Me.timesRightLabel.Name = "timesRightLabel"
-        Me.timesRightLabel.Size = New System.Drawing.Size(60, 50)
-        Me.timesRightLabel.TabIndex = 9
-        Me.timesRightLabel.Text = "?"
-        Me.timesRightLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'timesLeftLabel
-        '
-        Me.timesLeftLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
-        Me.timesLeftLabel.Location = New System.Drawing.Point(175, 226)
-        Me.timesLeftLabel.Name = "timesLeftLabel"
-        Me.timesLeftLabel.Size = New System.Drawing.Size(60, 50)
-        Me.timesLeftLabel.TabIndex = 8
-        Me.timesLeftLabel.Text = "?"
-        Me.timesLeftLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label10
-        '
-        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
-        Me.Label10.Location = New System.Drawing.Point(265, 304)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(60, 50)
-        Me.Label10.TabIndex = 13
-        Me.Label10.Text = "/"
-        Me.Label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'dividedRightLabel
-        '
-        Me.dividedRightLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
-        Me.dividedRightLabel.Location = New System.Drawing.Point(366, 304)
-        Me.dividedRightLabel.Name = "dividedRightLabel"
-        Me.dividedRightLabel.Size = New System.Drawing.Size(60, 50)
-        Me.dividedRightLabel.TabIndex = 12
-        Me.dividedRightLabel.Text = "?"
-        Me.dividedRightLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'dividedLeftLabel
-        '
-        Me.dividedLeftLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
-        Me.dividedLeftLabel.Location = New System.Drawing.Point(175, 304)
-        Me.dividedLeftLabel.Name = "dividedLeftLabel"
-        Me.dividedLeftLabel.Size = New System.Drawing.Size(60, 50)
-        Me.dividedLeftLabel.TabIndex = 11
-        Me.dividedLeftLabel.Text = "?"
-        Me.dividedLeftLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label13
-        '
-        Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
-        Me.Label13.Location = New System.Drawing.Point(451, 59)
-        Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(60, 50)
-        Me.Label13.TabIndex = 14
-        Me.Label13.Text = "="
-        Me.Label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label14
-        '
-        Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
-        Me.Label14.Location = New System.Drawing.Point(451, 304)
-        Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(60, 50)
-        Me.Label14.TabIndex = 15
-        Me.Label14.Text = "="
-        Me.Label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label15
-        '
-        Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
-        Me.Label15.Location = New System.Drawing.Point(451, 226)
-        Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(60, 50)
-        Me.Label15.TabIndex = 16
-        Me.Label15.Text = "="
-        Me.Label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label16
-        '
-        Me.Label16.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
-        Me.Label16.Location = New System.Drawing.Point(451, 144)
-        Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(60, 50)
-        Me.Label16.TabIndex = 17
-        Me.Label16.Text = "="
-        Me.Label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'sum
-        '
-        Me.sum.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
-        Me.sum.Location = New System.Drawing.Point(546, 64)
-        Me.sum.MaximumSize = New System.Drawing.Size(100, 0)
-        Me.sum.Name = "sum"
-        Me.sum.Size = New System.Drawing.Size(100, 41)
-        Me.sum.TabIndex = 1
-        '
-        'quotient
-        '
-        Me.quotient.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
-        Me.quotient.Location = New System.Drawing.Point(546, 309)
-        Me.quotient.MaximumSize = New System.Drawing.Size(100, 0)
-        Me.quotient.Name = "quotient"
-        Me.quotient.Size = New System.Drawing.Size(100, 41)
-        Me.quotient.TabIndex = 4
-        '
-        'product
-        '
-        Me.product.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
-        Me.product.Location = New System.Drawing.Point(546, 231)
-        Me.product.MaximumSize = New System.Drawing.Size(100, 0)
-        Me.product.Name = "product"
-        Me.product.Size = New System.Drawing.Size(100, 41)
-        Me.product.TabIndex = 3
-        '
-        'difference
-        '
-        Me.difference.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
-        Me.difference.Location = New System.Drawing.Point(546, 149)
-        Me.difference.MaximumSize = New System.Drawing.Size(100, 0)
-        Me.difference.Name = "difference"
-        Me.difference.Size = New System.Drawing.Size(100, 41)
-        Me.difference.TabIndex = 2
-        '
-        'startButton
-        '
-        Me.startButton.AutoSize = True
-        Me.startButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(254, Byte))
-        Me.startButton.Location = New System.Drawing.Point(332, 378)
-        Me.startButton.Name = "startButton"
-        Me.startButton.Size = New System.Drawing.Size(169, 46)
-        Me.startButton.TabIndex = 0
-        Me.startButton.Text = "Start the quiz"
-        Me.startButton.UseVisualStyleBackColor = True
-        '
-        'Form1
-        '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.startButton)
-        Me.Controls.Add(Me.difference)
-        Me.Controls.Add(Me.product)
-        Me.Controls.Add(Me.quotient)
-        Me.Controls.Add(Me.sum)
-        Me.Controls.Add(Me.Label16)
-        Me.Controls.Add(Me.Label15)
-        Me.Controls.Add(Me.Label14)
-        Me.Controls.Add(Me.Label13)
-        Me.Controls.Add(Me.Label10)
-        Me.Controls.Add(Me.dividedRightLabel)
-        Me.Controls.Add(Me.dividedLeftLabel)
-        Me.Controls.Add(Me.Label7)
-        Me.Controls.Add(Me.timesRightLabel)
-        Me.Controls.Add(Me.timesLeftLabel)
-        Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.minusRightLabel)
-        Me.Controls.Add(Me.minusLeftLabel)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.plusRightLabel)
-        Me.Controls.Add(Me.plusLeftLabel)
-        Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.timeLabel)
-        Me.Name = "Form1"
-        Me.Text = "Math Quiz"
-        CType(Me.sum, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.quotient, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.product, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.difference, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.ResumeLayout(False)
-        Me.PerformLayout()
+        timeLabel = New Label()
+        Label1 = New Label()
+        plusLeftLabel = New Label()
+        plusRightLabel = New Label()
+        Label3 = New Label()
+        Label4 = New Label()
+        minusRightLabel = New Label()
+        minusLeftLabel = New Label()
+        Label7 = New Label()
+        timesRightLabel = New Label()
+        timesLeftLabel = New Label()
+        Label10 = New Label()
+        dividedRightLabel = New Label()
+        dividedLeftLabel = New Label()
+        Label13 = New Label()
+        Label14 = New Label()
+        Label15 = New Label()
+        Label16 = New Label()
+        sum = New NumericUpDown()
+        quotient = New NumericUpDown()
+        product = New NumericUpDown()
+        difference = New NumericUpDown()
+        startButton = New Button()
+        Label2 = New Label()
+        CType(sum, ComponentModel.ISupportInitialize).BeginInit()
+        CType(quotient, ComponentModel.ISupportInitialize).BeginInit()
+        CType(product, ComponentModel.ISupportInitialize).BeginInit()
+        CType(difference, ComponentModel.ISupportInitialize).BeginInit()
+        SuspendLayout()
+        ' 
+        ' timeLabel
+        ' 
+        timeLabel.BorderStyle = BorderStyle.FixedSingle
+        timeLabel.Font = New Font("Microsoft Sans Serif", 15.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(254))
+        timeLabel.Location = New Point(588, 11)
+        timeLabel.Name = "timeLabel"
+        timeLabel.Size = New Size(200, 37)
+        timeLabel.TabIndex = 0
+        timeLabel.TextAlign = ContentAlignment.MiddleLeft
+        ' 
+        ' Label1
+        ' 
+        Label1.AutoSize = True
+        Label1.Font = New Font("Microsoft Sans Serif", 15F, FontStyle.Regular, GraphicsUnit.Point, CByte(254))
+        Label1.Location = New Point(463, 11)
+        Label1.Name = "Label1"
+        Label1.Size = New Size(119, 29)
+        Label1.TabIndex = 1
+        Label1.Text = "Time Left"
+        ' 
+        ' plusLeftLabel
+        ' 
+        plusLeftLabel.Font = New Font("Microsoft Sans Serif", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(254))
+        plusLeftLabel.Location = New Point(175, 74)
+        plusLeftLabel.Name = "plusLeftLabel"
+        plusLeftLabel.Size = New Size(60, 62)
+        plusLeftLabel.TabIndex = 2
+        plusLeftLabel.Text = "?"
+        plusLeftLabel.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' plusRightLabel
+        ' 
+        plusRightLabel.Font = New Font("Microsoft Sans Serif", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(254))
+        plusRightLabel.Location = New Point(366, 74)
+        plusRightLabel.Name = "plusRightLabel"
+        plusRightLabel.Size = New Size(60, 62)
+        plusRightLabel.TabIndex = 3
+        plusRightLabel.Text = "?"
+        plusRightLabel.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' Label3
+        ' 
+        Label3.Font = New Font("Microsoft Sans Serif", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(254))
+        Label3.Location = New Point(265, 74)
+        Label3.Name = "Label3"
+        Label3.Size = New Size(60, 62)
+        Label3.TabIndex = 4
+        Label3.Text = "+"
+        Label3.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' Label4
+        ' 
+        Label4.Font = New Font("Microsoft Sans Serif", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(254))
+        Label4.Location = New Point(265, 180)
+        Label4.Name = "Label4"
+        Label4.Size = New Size(60, 62)
+        Label4.TabIndex = 7
+        Label4.Text = "-"
+        Label4.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' minusRightLabel
+        ' 
+        minusRightLabel.Font = New Font("Microsoft Sans Serif", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(254))
+        minusRightLabel.Location = New Point(366, 180)
+        minusRightLabel.Name = "minusRightLabel"
+        minusRightLabel.Size = New Size(60, 62)
+        minusRightLabel.TabIndex = 6
+        minusRightLabel.Text = "?"
+        minusRightLabel.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' minusLeftLabel
+        ' 
+        minusLeftLabel.Font = New Font("Microsoft Sans Serif", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(254))
+        minusLeftLabel.Location = New Point(175, 180)
+        minusLeftLabel.Name = "minusLeftLabel"
+        minusLeftLabel.Size = New Size(60, 62)
+        minusLeftLabel.TabIndex = 5
+        minusLeftLabel.Text = "?"
+        minusLeftLabel.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' Label7
+        ' 
+        Label7.Font = New Font("Microsoft Sans Serif", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(254))
+        Label7.Location = New Point(265, 282)
+        Label7.Name = "Label7"
+        Label7.Size = New Size(60, 62)
+        Label7.TabIndex = 10
+        Label7.Text = "x"
+        Label7.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' timesRightLabel
+        ' 
+        timesRightLabel.Font = New Font("Microsoft Sans Serif", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(254))
+        timesRightLabel.Location = New Point(366, 282)
+        timesRightLabel.Name = "timesRightLabel"
+        timesRightLabel.Size = New Size(60, 62)
+        timesRightLabel.TabIndex = 9
+        timesRightLabel.Text = "?"
+        timesRightLabel.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' timesLeftLabel
+        ' 
+        timesLeftLabel.Font = New Font("Microsoft Sans Serif", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(254))
+        timesLeftLabel.Location = New Point(175, 282)
+        timesLeftLabel.Name = "timesLeftLabel"
+        timesLeftLabel.Size = New Size(60, 62)
+        timesLeftLabel.TabIndex = 8
+        timesLeftLabel.Text = "?"
+        timesLeftLabel.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' Label10
+        ' 
+        Label10.Font = New Font("Microsoft Sans Serif", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(254))
+        Label10.Location = New Point(265, 380)
+        Label10.Name = "Label10"
+        Label10.Size = New Size(60, 62)
+        Label10.TabIndex = 13
+        Label10.Text = "/"
+        Label10.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' dividedRightLabel
+        ' 
+        dividedRightLabel.Font = New Font("Microsoft Sans Serif", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(254))
+        dividedRightLabel.Location = New Point(366, 380)
+        dividedRightLabel.Name = "dividedRightLabel"
+        dividedRightLabel.Size = New Size(60, 62)
+        dividedRightLabel.TabIndex = 12
+        dividedRightLabel.Text = "?"
+        dividedRightLabel.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' dividedLeftLabel
+        ' 
+        dividedLeftLabel.Font = New Font("Microsoft Sans Serif", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(254))
+        dividedLeftLabel.Location = New Point(175, 380)
+        dividedLeftLabel.Name = "dividedLeftLabel"
+        dividedLeftLabel.Size = New Size(60, 62)
+        dividedLeftLabel.TabIndex = 11
+        dividedLeftLabel.Text = "?"
+        dividedLeftLabel.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' Label13
+        ' 
+        Label13.Font = New Font("Microsoft Sans Serif", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(254))
+        Label13.Location = New Point(451, 74)
+        Label13.Name = "Label13"
+        Label13.Size = New Size(60, 62)
+        Label13.TabIndex = 14
+        Label13.Text = "="
+        Label13.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' Label14
+        ' 
+        Label14.Font = New Font("Microsoft Sans Serif", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(254))
+        Label14.Location = New Point(451, 380)
+        Label14.Name = "Label14"
+        Label14.Size = New Size(60, 62)
+        Label14.TabIndex = 15
+        Label14.Text = "="
+        Label14.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' Label15
+        ' 
+        Label15.Font = New Font("Microsoft Sans Serif", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(254))
+        Label15.Location = New Point(451, 282)
+        Label15.Name = "Label15"
+        Label15.Size = New Size(60, 62)
+        Label15.TabIndex = 16
+        Label15.Text = "="
+        Label15.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' Label16
+        ' 
+        Label16.Font = New Font("Microsoft Sans Serif", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(254))
+        Label16.Location = New Point(451, 180)
+        Label16.Name = "Label16"
+        Label16.Size = New Size(60, 62)
+        Label16.TabIndex = 17
+        Label16.Text = "="
+        Label16.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' sum
+        ' 
+        sum.Font = New Font("Microsoft Sans Serif", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(254))
+        sum.Location = New Point(546, 80)
+        sum.Margin = New Padding(3, 4, 3, 4)
+        sum.MaximumSize = New Size(100, 0)
+        sum.Name = "sum"
+        sum.Size = New Size(100, 41)
+        sum.TabIndex = 1
+        ' 
+        ' quotient
+        ' 
+        quotient.Font = New Font("Microsoft Sans Serif", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(254))
+        quotient.Location = New Point(546, 386)
+        quotient.Margin = New Padding(3, 4, 3, 4)
+        quotient.MaximumSize = New Size(100, 0)
+        quotient.Name = "quotient"
+        quotient.Size = New Size(100, 41)
+        quotient.TabIndex = 4
+        ' 
+        ' product
+        ' 
+        product.Font = New Font("Microsoft Sans Serif", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(254))
+        product.Location = New Point(546, 289)
+        product.Margin = New Padding(3, 4, 3, 4)
+        product.MaximumSize = New Size(100, 0)
+        product.Name = "product"
+        product.Size = New Size(100, 41)
+        product.TabIndex = 3
+        ' 
+        ' difference
+        ' 
+        difference.Font = New Font("Microsoft Sans Serif", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(254))
+        difference.Location = New Point(546, 186)
+        difference.Margin = New Padding(3, 4, 3, 4)
+        difference.MaximumSize = New Size(100, 0)
+        difference.Name = "difference"
+        difference.Size = New Size(100, 41)
+        difference.TabIndex = 2
+        ' 
+        ' startButton
+        ' 
+        startButton.AutoSize = True
+        startButton.Font = New Font("Microsoft Sans Serif", 14F, FontStyle.Regular, GraphicsUnit.Point, CByte(254))
+        startButton.Location = New Point(332, 472)
+        startButton.Margin = New Padding(3, 4, 3, 4)
+        startButton.Name = "startButton"
+        startButton.Size = New Size(169, 58)
+        startButton.TabIndex = 0
+        startButton.Text = "Start the quiz"
+        startButton.UseVisualStyleBackColor = True
+        ' 
+        ' Label2
+        ' 
+        Label2.AutoSize = True
+        Label2.Location = New Point(55, 114)
+        Label2.Name = "Label2"
+        Label2.Size = New Size(53, 20)
+        Label2.TabIndex = 18
+        Label2.Text = "Label2"
+        ' 
+        ' Form1
+        ' 
+        AutoScaleDimensions = New SizeF(8F, 20F)
+        AutoScaleMode = AutoScaleMode.Font
+        ClientSize = New Size(800, 562)
+        Controls.Add(Label2)
+        Controls.Add(startButton)
+        Controls.Add(difference)
+        Controls.Add(product)
+        Controls.Add(quotient)
+        Controls.Add(sum)
+        Controls.Add(Label16)
+        Controls.Add(Label15)
+        Controls.Add(Label14)
+        Controls.Add(Label13)
+        Controls.Add(Label10)
+        Controls.Add(dividedRightLabel)
+        Controls.Add(dividedLeftLabel)
+        Controls.Add(Label7)
+        Controls.Add(timesRightLabel)
+        Controls.Add(timesLeftLabel)
+        Controls.Add(Label4)
+        Controls.Add(minusRightLabel)
+        Controls.Add(minusLeftLabel)
+        Controls.Add(Label3)
+        Controls.Add(plusRightLabel)
+        Controls.Add(plusLeftLabel)
+        Controls.Add(Label1)
+        Controls.Add(timeLabel)
+        Margin = New Padding(3, 4, 3, 4)
+        Name = "Form1"
+        Text = "Math Quiz"
+        CType(sum, ComponentModel.ISupportInitialize).EndInit()
+        CType(quotient, ComponentModel.ISupportInitialize).EndInit()
+        CType(product, ComponentModel.ISupportInitialize).EndInit()
+        CType(difference, ComponentModel.ISupportInitialize).EndInit()
+        ResumeLayout(False)
+        PerformLayout()
 
     End Sub
 
@@ -340,4 +357,5 @@ Partial Class Form1
     Friend WithEvents product As NumericUpDown
     Friend WithEvents difference As NumericUpDown
     Friend WithEvents startButton As Button
+    Friend WithEvents Label2 As Label
 End Class
